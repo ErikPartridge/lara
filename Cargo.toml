@@ -1,0 +1,23 @@
+[package]
+name = "lara"
+version = "0.1.0"
+authors = ["Erik A. Partridge <erik.partridge@mail.mcgill.ca>"]
+edition = "2018"
+
+[dependencies]
+ndarray = { version="0.12", features=["blas"] }
+ndarray-linalg = {version="0.10", features=["intel-mkl"]}
+ndarray-parallel = "0.9"
+blas-src = { version = "0.2.1", default-features = false, features = ["intel-mkl"] }
+multimap = "0.4.0"
+rayon = "1.0"
+rand = "0.6"
+hashbrown = "0.1"
+
+[dev-dependencies]
+criterion = "0.2"
+csv = "1.0"
+
+[[bench]]
+name = "benches"
+harness = false
