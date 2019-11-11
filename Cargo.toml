@@ -15,7 +15,7 @@ rand = "0.6"
 hashbrown = "0.1"
 
 [dev-dependencies]
-criterion = "0.2"
+criterion = "0.3"
 csv = "1.0"
 
 [[bench]]
