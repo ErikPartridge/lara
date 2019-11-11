@@ -9,7 +9,7 @@ ndarray = { version="0.12", features=["blas"] }
 ndarray-linalg = {version="0.10", features=["intel-mkl"]}
 ndarray-parallel = "0.9"
 blas-src = { version = "0.3.0", default-features = false, features = ["intel-mkl"] }
-multimap = "0.5.0"
+multimap = "0.7.0"
 rayon = "1.0"
 rand = "0.6"
 hashbrown = "0.1"
